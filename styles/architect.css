@@ -16,6 +16,7 @@
     font-size: 1.25rem;
     font-weight: 600;
     border-radius: 8px;
+    margin-top: 25px;
     background: #FF900E;
     padding: 20px 25px;
     border: 0;
@@ -45,6 +46,7 @@ nav {
 .section-title {
     color: #131313;
     font-size: 2.8rem;
+    padding: 28px 0px;
     font-weight: 700;
 }
 
@@ -70,6 +72,10 @@ nav li a {
 }
 
 /* banner styles  */
+
+.banner {
+    margin-top: 20px;
+}
 
 .banner-content {
     max-width: 800px;
@@ -232,6 +238,21 @@ main {
     font-size: 1.5rem;
 }
 
+/* footer Section Start   */
+
+.footer {
+    text-align: center;
+    padding: 2%;
+    margin: 0% 8%;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+.feature-content {
+    padding: 6%;
+}
+
+/* footer Section End    */
 /* responsive media queries */
 
 /* mobile devices */
@@ -265,6 +286,7 @@ main {
         width: 50vw;
         bottom: 0;
         text-align: center;
+        margin: auto;
     }
 
     .feature-img img {
@@ -272,6 +294,10 @@ main {
         width: 85vw;
         margin-left: 0;
 
+    }
+
+    .feature-img {
+        margin: auto;
     }
 }
 
@@ -290,6 +316,26 @@ main {
         flex-direction: column;
     }
 
+    .ten-years-badge {
+        width: 50vw;
+        bottom: 0;
+        text-align: center;
+        margin: auto;
+    }
 
+    .feature-img img {
+        text-align: center;
+        width: 85vw;
+        margin-left: 0;
+
+    }
+
+    .feature-img {
+        margin: auto;
+    }
+
+    .feature-content {
+        padding: 6%;
+    }
 
 }
